@@ -46,5 +46,15 @@ public class Fundamental {
         
         System.out.println(ia.equals(ib)); // using equals()
         System.out.println(ia.compareTo(ib)); // using compareTo()
+
+        // Ternary operator
+        boolean flag = true;
+//        int ter = flag ? 10 : 20.0; // incorrect, 10 is converted to double
+
+        // Autoboxing Object object
+        Object o = 5;
+        System.out.println(o instanceof Double); // false
+        System.out.println(o instanceof Integer); // true
+        System.out.println(o.getClass());
     }
 }
